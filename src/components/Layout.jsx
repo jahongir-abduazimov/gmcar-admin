@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { LogoutOutlined } from "@ant-design/icons";
 import { Button, Layout, Menu, theme } from "antd";
-import Logo from "../assets//icons/Logo.png";
 import "../index.css";
 import { routes } from "../router/routes";
 import LogOutModal from "./ui/LogOutModal";
