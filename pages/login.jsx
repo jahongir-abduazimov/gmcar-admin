@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../src/assets/icons/Logo.png";
+import Logo from "../src/assets/icons/logo.png";
 import { Button, Form, Input } from "antd";
 import Password from "antd/es/input/Password";
 import request from "../src/components/config";
