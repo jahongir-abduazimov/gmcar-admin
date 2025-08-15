@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/fonts//Inter_18pt-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/fonts//Inter_18pt-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/fonts//Inter_18pt-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/fonts//Inter_18pt-Bold.ttf");
+  font-weight: 700;
+}
+
+.ant-menu-items {
+  background-color: #003478
+}
+.ant-menu-items:hover {
+  background-color: #003478 !important;  /* Change to desired hover background color */
+  /* color: #1890ff !important;  Change to desired hover text color */
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
